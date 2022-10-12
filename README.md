@@ -3,7 +3,8 @@
 Important links:
 1. Google Quickstart guide: https://developers.google.com/analytics/devguides/reporting/data/v1/quickstart-client-libraries
 2. API dimensions and metrics: https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema
-3. Google developer's guide: https://developers.google.com/analytics/devguides/reporting/data/v1/rest/v1beta/properties
+3. Google developer's guides: https://developers.google.com/analytics/devguides/reporting/data/v1/rest/v1beta/properties
+https://googleapis.dev/python/analyticsdata/latest/data_v1beta/beta_analytics_data.html
 
 The overview of the process:
 1. Get API keys: create a GCP project, authorize Google Analytics Data API, create a service account, create JSON keys for the account.
