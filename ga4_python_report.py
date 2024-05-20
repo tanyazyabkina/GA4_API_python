@@ -53,7 +53,6 @@ request = RunReportRequest(
         date_ranges=[DateRange(start_date="2022-06-01", end_date="today")],
     )
 
-request
 
 format_report(request)
 
