@@ -6,9 +6,13 @@ Important links:
 3. Google developer's guides: https://developers.google.com/analytics/devguides/reporting/data/v1/rest/v1beta/properties
 https://googleapis.dev/python/analyticsdata/latest/data_v1beta/beta_analytics_data.html
 
+Blog post with detailed instructions: https://probabilistically.com/ga4-bigquery-backfill/
+
 The overview of the process:
 1. Get API keys: create a GCP project, authorize Google Analytics Data API, create a service account, create JSON keys for the account.
 2. Add service account as a viewer to your GA4 propert(Admin->User Management) 
-3. Install google-analytics-data package.
+3. Install google-analytics-data package. 
 4. Set os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'your_api_key.json'
 5. Send request, get output. Done!
+
+*If you have trouble installing/importing Google Analytics data in your environment, run the code on Google Colab. The JSON would need to be saved as the key*
